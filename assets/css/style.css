@@ -1,0 +1,732 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+body{
+    overflow-x:hidden ;
+}
+.pre-loader{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/fa/99/f8/fa99f84dcff024a59ce72717dfcb68e5.gif);
+    background-size: cover;
+    background-position: center;
+}
+.main-page{
+    display: none;
+}
+.like{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.telephone{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.telephone p{
+   margin-top: 10px;
+   margin-left: 10px;
+   color: #fff;
+   font-size: 20px;
+}
+.telephone i{
+    color: #fff;
+    font-size: 20px;
+ }
+.like i{
+    font-size: 20px;
+}
+.like .basket{
+    margin-left: 10px;
+    width: 4%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.like .basket i{
+  color: #fff;
+}
+.like .heart{
+    margin-left: 30px;
+    width: 4%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.like .heart i{
+    color: #fff;
+}
+.like #dark-btn{
+    background: none;
+    border: none;
+    color: #fff;
+}
+.like #lang-btn{
+    background: none;
+    border: none;
+    color: #fff;
+}
+header{
+    background-image: url(https://demoapus1.com/boxcar/wp-content/uploads/2023/10/slider1.jpg);
+    width: 100%;
+    height: 900px;
+}
+header .container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    width: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul li{
+    list-style: none;
+    color: #fff;
+    font-weight: bolder;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+header button:hover{
+    background-color:#3F5EF0;
+    border: 1px solid#3F5EF0;
+    color: #fff;
+}
+.header-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+header .small-text{
+    color: #fff;
+    font-size: 18px;   
+}
+header .big-text{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.category nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+.category nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.search-cars{
+    margin: 0 auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 50px;
+}
+.search-cars .card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-cars .card-body nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.search-cars .card-body .nav-item {
+    list-style: none;
+}
+.search-cars .card-body nav .prices{
+    list-style: none;
+}
+.search-cars .card-body button{
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    background-color:#3F5EF0;
+    border: 1px solid#3F5EF0;
+    color: #fff;
+    margin-left: 80px;
+}
+header .model {
+   color: #fff;
+   width: 100%;
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.search-cars .card-body .nav-item .dropdown-menu{
+    overflow-y: scroll;
+    height: 300px;
+}
+.cars-type{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cars-type .suv{
+    padding: 12px 25px 12px 25px;
+    background-color:  rgba(92, 89, 89, 0.5);
+    border: 1px solid rgba(92, 89, 89, 0.5);
+    color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+}
+.brand .brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand .brands p{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.brand .brands .arrow-brands{
+    display: flex;
+    align-items: center;
+}
+.brand .brands .arrow-brands a{
+    text-decoration: none;
+    color: #000;
+}
+.brand .brands .arrow-brands i{
+    margin-left: 10px;
+}
+.brand .card{
+    transition: .5s;
+}
+.brand .card img{
+    width: 70%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.brand .card .card-body .card-text{
+    text-align: center;
+    font-size: 20px;
+}
+.brand .card:hover{
+    border: 1px solid#3F5EF0;
+    color:#3F5EF0;
+}
+.vehicle .brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vehicle .brands p{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.vehicle .brands .arrow-brand{
+    display: flex;
+    align-items: center;
+}
+.vehicle .brands .arrow-brand i{
+    margin-left: 10px;
+}
+.vehicle .brands .arrow-brand a{
+   text-decoration: none;
+   color: #000;
+}
+.vehicle #cars-list{
+    display: flex;
+    transform: translateX(-20px);
+}
+.vehicle #cars-list img{
+    width: 100%;
+    height: auto;
+}
+.vehicle #cars-list .proporties{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vehicle #cars-list .proporties .kilometer{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    flex-direction: column;
+}
+.vehicle #cars-list .proporties .type{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    flex-direction: column;
+}
+.vehicle #cars-list .proporties .gear{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    flex-direction: column;
+}
+.vehicle #cars-list .details{
+    display: flex;
+    justify-content: space-between;
+}
+.vehicle #cars-list .details a{
+   margin-left: 90px;
+   text-decoration: none;
+}
+.vehicle #cars-list .details i{
+    margin-top: 5px;
+    color: #0D6EFD;
+ }
+.youtube{
+    display: flex;
+}
+.youtube .video{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px; 
+}
+.video-text{
+    background-color: #EEF1FB;
+    width: 60%;
+    height: 760px;
+    margin-right: 50px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-text .texts{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.youtube .video-text .text1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.youtube .video-text .text2{
+    font-size: 15px;    
+}
+.youtube .video-text button{
+    padding: 15px 40px 15px 40px;
+    border-radius: 15px;
+    background-color:#3F5EF0;
+    border: 1px solid#3F5EF0;
+    color: #fff;
+}
+.number{
+    border-bottom: 1px solid #E1E1E1;
+}
+.number .card{
+    border: none;
+    margin-bottom: 50px;
+}
+.number .card .card-title{
+    text-align: center;
+    font-size: 40px;
+}
+.number .card .card-text{
+    text-align: center;
+}
+main .choose{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.hybrid .card{
+    border: none;
+}
+.hybrid .card img{
+    width: 20%;
+}
+.post p{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.post .arrow-brands{
+    display: flex;
+    align-items: center;
+}
+.post .arrow-brands i{
+    margin-left: 10px;
+}
+.post .arrow-brands a{
+    text-decoration: none;
+    color: #000;
+}
+.post .brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(30px);
+}
+.zoomable-card {
+    overflow: hidden;
+    border: none;
+}
+.zoomable-card .card-img-top {
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    height: 300px;
+}
+.zoomable-card:hover .card-img-top {
+    transform: scale(1.1);
+}
+.card .card-body .card-text{
+    margin-bottom: 10px;
+}
+.card .card-body .card-text a{
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+.card .card-body .card-text a:hover{
+    color:#3F5EF0;
+}
+.card .card-body .bmw{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: .5s;
+}
+.card .card-body .bmw:hover{
+    color:#3F5EF0;
+}
+.electric .card1{
+    background-color: #E9F2FF;
+    border-radius: 15px;
+    height: 400px;
+}
+.electric .card1 .card-title{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.electric .card1 .card-text{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.electric .electric-img{
+    width: 85%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.electric .card1 .btn{
+    padding: 15px 40px 15px 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color:#3F5EF0;
+}
+.electric .card2{
+    background-color: #FFE9F3;
+    border-radius: 15px;
+    height: 400px;
+}
+.electric .card2 .card-title{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.electric .card2 .card-text{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.electric .card2 .btn{
+    padding: 15px 40px 15px 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: #000;
+    border: 1px solid #000;
+}
+footer{
+    background-color: #050B20;
+}
+footer .email{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff;
+}
+footer .email .footer-text h5{
+   font-size: 40px;
+   color: #fff;
+}
+footer .email .footer-text p{
+    color: #fff;
+}
+footer .email .address .sign{
+    display: flex;
+}
+footer .email .address input{
+    padding: 15px 150px 15px 30px;
+    background-color:   rgba(92, 89, 89, 0.5);
+    border: 1px solid  rgba(92, 89, 89, 0.5);
+    border-radius: 30px;
+    position: absolute;
+    transform: translateX(-280px);
+}
+footer .email .address button{
+    position: relative;
+    transform: translateX(-8px);
+    padding: 12px 15px 12px 15px;
+    border-radius: 30px;
+    background-color:#3F5EF0;
+    border: 1px solid#3F5EF0;
+    color: #fff;
+    margin-top: 3px;   
+}
+footer .row{
+   display: flex;
+   justify-content: space-between;
+}
+footer .row h5{
+    color: #fff;
+}
+footer .row .nav .nav-item .nav-link{
+    color:  #fff !important;
+}
+footer .row p{
+   color: #fff;
+}
+footer button{
+   display: flex;
+   padding: 10px 13px 10px 15px;
+   border-radius: 20px;
+   background-color:  rgba(92, 89, 89, 0.5);
+   border: 1px solid  rgba(92, 89, 89, 0.5);
+   color: #fff;
+   margin-bottom: 15px;
+}
+footer button i{
+    font-size: 30px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+footer .play{
+    display: flex;
+    padding: 10px 43px 10px 15px;
+    border-radius: 20px;
+    background-color:  rgba(92, 89, 89, 0.5);
+    border: 1px solid  rgba(92, 89, 89, 0.5);
+    color: #fff;
+    margin-bottom: 15px;
+ }
+ footer .play i{
+     font-size: 30px;
+     margin-top: 7px;
+     margin-right: 10px;
+ }
+footer .social{
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 17px;
+}
+/* ==========================MEDIA QUERY============================== */
+@media (max-width:768px) {
+    .like .heart{
+        margin-left: 30px;
+    }
+    header nav ul{
+        position:absolute;
+        transform: translate(-245px,30px);
+        width: 100%;
+    }
+    header nav ul li a{
+        font-size: 15px;
+    }
+    header .small-text{
+        transform: translateY(-30px);
+    }
+    header .big-text{
+        font-size: 40px;
+        transform: translateY(-30px);
+    }
+    .category nav ul{
+        transform: translate(-20px,-50px);
+    }
+    .search-cars{
+        margin: 0 auto;
+        width: 90%;
+        background-color: #fff;
+        padding: 20px 40px 20px 40px;
+        border-radius: 50px;
+    }
+    .cars-type{
+        width: 30%;
+        transform: translateX(170px);
+    }
+    .cars-type .suv{
+        padding: 8px 13px 8px 13px;
+        border-radius: 20px;  
+    }
+    .vehicle #cars-list .details a{
+        transform: translateX(50px);
+     }
+     .youtube{
+        display: block;
+    }
+    .youtube .video{
+        transform: translateX(-10px);
+    }
+    .video-text{
+        width: 100%;
+    }
+    footer .email .footer-text{
+        transform: translate(10px,-50px);
+    }
+     footer .email .address{
+       transform: translate(-110px,50px);
+    }
+}
+/* ==========================DARK/Light mode========================== */
+.light {
+    background-color: #ffffff;
+    color: #000;
+}
+.dark-mode {
+    background-color:#121926;
+    color: #ffffff;
+}
+#dark-btn {
+    background-color:#121926;
+    color: #fff;
+    border: 1px solid#121926;
+}
+.dark-mode #dark-btn {
+    background-color:#121926;
+    color: #ffffff;
+    border: 1px solid#121926;
+}
+.dark-mode #dark-btn i{
+   color: yellow;
+}
+.dark-mode header{
+    background-image: url(https://images.unsplash.com/photo-1610809376778-928ee2c3a561?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym13JTIwd2FsbHBhcGVyfGVufDB8fDB8fHww);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.dark-mode .like #dark-btn{
+    background: none;
+    border: none;
+    color: #fff;
+}
+.dark-mode .card-body nav a{
+    color: #000;
+}
+.dark-mode .brand{
+    background-color:#121926;
+    color: #ffffff;
+}
+.dark-mode .brand .brands .arrow-brands a{
+   color: #fff;
+}
+.dark-mode .vehicle .brands .arrow-brand a{
+    color: #fff;
+ }
+.dark-mode .brand .card{
+    background-color:#121926;
+    color: #fff;
+}
+.dark-mode .brand .card .card-img-top{
+    background-color:#121926;
+}
+.dark-mode #cars-list .card{
+    background-color:#121926;
+    color: #fff;
+}
+.dark-mode .video-text{
+    background-color:#121926;
+}
+.dark-mode .video-text .text1{
+    color: #fff;
+}
+.dark-mode .video-text .text2{
+    color: #fff;
+}
+.dark-mode .video-text .text3{
+    color: #fff;
+}
+.dark-mode .video-text .text4{
+    color: #fff;
+}
+.dark-mode .video-text .text5{
+    color: #fff;
+}
+.dark-mode .number .card{
+    background-color:#121926;
+    color: #fff;
+}
+.dark-mode .hybrid .card{
+    background-color:#121926;
+}
+.dark-mode .hybrid .card h5{
+    color: #fff;
+}
+.dark-mode .hybrid .card .card-body h6{
+    color: #fff !important;
+}
+.dark-mode .post .card{
+    background-color:#121926;
+}
+.dark-mode .post .card .card-text a{
+    color: #fff;
+}
+.dark-mode .post .arrow-brands a{
+    color: #fff;
+}
+.dark-mode .post .card .card-text a:hover{
+    color: #0D6EFD;
+}
+.dark-mode .card .card-body .bmw{
+   color: #fff;
+}
+.dark-mode .card .card-body .bmw:hover{
+    color: #0D6EFD;
+}
+.dark-mode .electric .card1 .card-body .card-title{
+    color: #000;
+}
+.dark-mode .electric .card1 .card-body .card-text{
+    color: #000;
+}
+.dark-mode .electric .card2 .card-body .card-title{
+    color: #000;
+}
+.dark-mode .electric .card2 .card-body .card-text{
+    color: #000;
+}
+.dark-mode footer{
+    background-color:#121926;
+}

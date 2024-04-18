@@ -1,0 +1,101 @@
+[
+    {
+        "id":1,
+        "title":"Toyota Camry New",
+        "image":"https://media.ed.edmunds-media.com/toyota/camry-hybrid/2024/oem/2024_toyota_camry-hybrid_sedan_se-nightshade_fq_oem_1_1600.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"20 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$40000"
+    },
+    {
+        "id":2,
+        "title":"KIA K5-2023",
+        "image":"https://media.ed.edmunds-media.com/kia/k5/2022/oem/2022_kia_k5_sedan_ex_fq_oem_1_600.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"15 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"CVT",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$15000"
+    },
+    {
+        "id":3,
+        "title":"S-Class-2023",
+        "image":"https://www.motortrend.com/uploads/sites/5/2018/02/2018-Mercedes-AMG-S63-front-three-quarter-in-motion-02.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"50 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$150000"
+    },
+    {
+        "id":4,
+        "title":"Ford Transit-2021",
+        "image":"https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/1-ford-transit-nugget-2021-uk-fd-hero-front.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"250 Miles",
+        "fueltype":"Diesel",
+        "gearbox":"Manual",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$22000"
+    },
+    {
+        "id":5,
+        "title":"New GLC-2023",
+        "image":"https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg__marking_background__sm_/v1/editorial/2023-mercedes-glc-300-suv-black-1200x800-%284%29.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"50 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$95000"
+    },
+    {
+        "id":6,
+        "title":"AUDI A6 3.5-New",
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/11/car3-660x440.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"100 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$58000"
+    },
+    {
+        "id":7,
+        "title":"Corolla Altis-2023",
+        "image":"https://motoristprod.s3.amazonaws.com/uploads/content_article_cover_image/photo/1292/motorist-mreview-toyota-corolla-altis-2020.png",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"150 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"CVT",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$45000"
+    },
+    {
+        "id":8,
+        "title":"Mercedes-Benz GLS 450",
+        "image":"https://claveyscorner.com/wp-content/uploads/2020/03/2020-Mercedes-Benz-GLS-450-Driving-Shot-Front.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"10 Miles",
+        "fueltype":"Diesel",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$135000"
+    },
+    {
+        "id":9,
+        "title":"BMW i740-2024",
+        "image":"https://images.prismic.io/carwow/14aed425-0e11-4553-b45e-63bc3f3b6802_2022+BMW+i7+Front+3%3A4+Driving.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"10 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$155000"
+    }
+]

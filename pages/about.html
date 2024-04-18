@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us-Boxcar</title>
+    <link rel="stylesheet" href="../assets/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+  <header id="header2">
+    <div class="container">
+      <div class="telephone">
+        <i class="fa-solid fa-phone"></i>
+        <p>+76 956 123 456</p>
+       </div>
+      <div class="like">
+       
+        <button id="dark-btn"><i class="fa-solid fa-moon"></i></button>
+        <button id="lang-btn">AZ</button>
+         <div class="basket">
+          <a href="./basket.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <span id="basket-counter" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            0
+            <span class="visually-hidden">unread messages</span>
+          </span>
+         </div>
+         <div class="heart">
+          <a href="./wishlist.html"><i class="fa-solid fa-heart"></i></a>
+          <span id="basket-counter" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            0
+            <span class="visually-hidden">unread messages</span>
+          </span>
+         </div>
+       
+      </div>
+    </div>
+      <div class="container">
+        <img src="../assets/img/logo.svg" alt="err">
+        <nav>
+            <ul class="my-3">
+              <li><a href="./home.html" class="lang">Home</a></li>
+              <li><a href="./products.html" class="lang">Listings</a></li>
+              <li><a href="./products1.html" class="lang">Blog</a></li>
+              <li><a href="./shop.html" class="lang">Shop</a></li>
+              <li><a href="./about.html" class="lang">About Us</a></li>
+              <li><a href="./faq.html">FAQs</a></li>
+              <li><a href="./contact.html" class="lang">Contact</a></li>
+                 <script>
+                  document.write(
+                      localStorage.getItem('login') === "true" ?
+                      `<a href="#" style="text-decoration: none; color: #fff; font-weight: bolder;">${localStorage.getItem("firstname")}</a>` :
+                      `<a href="./login.html" style="text-decoration: none; color: #fff; font-weight: bolder;" class="lang">Sign in</a>`
+                  );
+              </script>
+            </ul>
+        </nav>
+        <script>
+          document.write(
+              localStorage.getItem('login') === "true" ?
+              `<button class="animate__animated animate__backInRight animate__slower" id="logout">Log out</button>` :
+              `<button class="animate__animated animate__backInRight animate__slower lang">Submit Listing</button>`
+          );
+      </script>
+        </div>
+      <script>
+        if (document.querySelector('#logout')) {
+      document.querySelector('#logout').onclick = ()=>{
+        localStorage.setItem('login','false')
+        window.location.assign('login.html')
+      }
+  }
+      </script>
+
+    </header>
+ <div class="text">
+  <div class="contact">
+      <a href="home.html" class="lang">Home/</a>
+      <p class="lang">About Us</p>
+  </div>
+  <p class="lang">About Us</p>
+</div>
+
+<main>
+ <div class="main-text">
+  <div class="value">
+    <h2 class="lang">We Value Our Clients And<br> Want Them To Have A<br> Nice Experience</h2>
+   </div>
+   <div class="lorem">
+    <p class="lang">Lorem ipsum dolor sit amet consectetur. Convallis integer enim eget sit urna. Eu duis lectus<br>
+       amet vestibulum varius. Nibh tellus sit sit at lorem facilisis. Nunc vulputate ac interdum<br>
+       aliquet vestibulum in tellus.</p>
+    <p class="lang">
+      Sit convallis rhoncus dolor purus amet orci urna. Lobortis vulputate vestibulum consectetur <br>
+      donec ipsum egestas velit laoreet justo. Eu dignissim egestas egestas ipsum. Sit est nunc<br>
+       pellentesque at a aliquam ultrices consequat. Velit duis velit nec amet eget eu morbi. Libero<br>
+       non diam sit viverra dignissim. Aliquam tincidunt in cursus euismod enim.
+    </p>
+    <p class="lang">
+      Magna odio sed ornare ultrices. Id lectus mi amet sit at sit arcu mi nisl. Mauris egestas arcu <br>
+      mauris.
+    </p>
+   </div>
+ </div>
+</main>
+
+<main class="picture">
+  <div class="year">
+    <h2 class="lang">45<br>Years in Business</h2>
+  </div>
+  <div class="five-picture">
+    <div class="car-key">
+      <img src="../assets/img/g1.jpg" alt="err" class ="key">
+    </div>
+    <div class="four-picture">
+      <div class="man-box">
+        <img src="../assets/img/g2.jpg" alt="err" class ="man">
+      </div>
+      <div class="three-picture">
+       <div class="white-car">
+        <img src="../assets/img/g3.jpg" alt="err" class="white">
+       </div>
+       <div class="two-picture">
+        <img src="../assets/img/g4.jpg" alt="err" class="car">
+        <img src="../assets/img/g5.jpg" alt="err" class="hand">
+       </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<main class="hybrid">
+  <p class="choose lang">Why Choose Us?</p>
+
+<div class="row">
+  <div class="col-12 col-sm-6 col-md-3">
+    <div class="card">
+      <img class="icon" src="../assets/img/f1.svg" class="card-img-top" alt="err">
+      <div class="card-body">
+         <h5 class="card-title mb-4 lang">Special Financing Offers</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary lang">Our stress-free finance department that
+           can find financial solutions to save you money.</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-md-3">
+    <div class="card">
+      <img class="icon" src="../assets/img/f2.svg" class="card-img-top" alt="err">
+      <div class="card-body">
+        <h5 class="card-title mb-4 lang">Trusted Car Dealership</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary lang">Our stress-free finance department
+           that can find financial solutions to save you money.</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-md-3">
+    <div class="card">
+      <img class="icon" src="../assets/img/f3.svg" class="card-img-top" alt="err">
+      <div class="card-body">
+        <h5 class="card-title mb-4 lang">Transparent Pricing</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary lang">Our stress-free finance department that 
+          can find financial solutions to save you money.</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-md-3">
+    <div class="card">
+      <img class="icon" src="../assets/img/f4.svg" class="card-img-top" alt="err">
+      <div class="card-body">
+        <h5 class="card-title mb-4 lang">Expert Car Service</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary lang">Our stress-free finance department 
+          that can find financial solutions to save you money.</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<main class="youtube mt-5">
+<div class="video">
+  <iframe width="600" height="650" src="https://www.youtube.com/embed/7e90gBu4pas?si=aAMHbG1LIXVtSBO0"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen></iframe>
+</div>
+ 
+     <div class="video-text">
+      <div class="texts">
+        <p class="text1 lang">Get A Fair Price For<br> Your Car Sell To Us<br> Today</p>
+      <p class="text2 lang">We are committed to providing our customers with<br>
+         exceptional service, competitive pricing, and a wide range<br> of.</p>
+         <p class="text3 lang">We are the UK’s largest provider, with more patrols<br> in more places</p>
+         <p class="text4 lang">You get 24/7 roadside assistance</p>
+         <p class="text5 lang">We fix 4 out of 5 cars at the roadside</p>
+         <button class="lang">Get Started</button>
+      </div>
+     </div>
+  </main>
+
+  <main class="number">
+        <div class="row">
+         <div class="col-6 col-sm-6 col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">836M</h5>
+              <p class="card-text lang">CARS FOR SALE</p>
+            </div>
+          </div>
+         </div>
+  
+         <div class="col-6 col-sm-6 col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">738M</h5>
+              <p class="card-text lang">DEALER REVIEWS</p>
+            </div>
+          </div>
+         </div>
+  
+         <div class="col-6 col-sm-6 col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">100M</h5>
+              <p class="card-text lang">VISITORS PER DAY</p>
+            </div>
+          </div>
+         </div>
+  
+         <div class="col-6 col-sm-6 col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">238M</h5>
+              <p class="card-text lang">VERIFIED DEALERS</p>
+            </div>
+          </div>
+         </div>
+        </div>
+    </main>
+
+    <main class="brand">
+      <div class="brands">
+        <p class="lang">Explore Our Premium Brands</p>
+        <div class="arrow-brands">
+          <a class="lang" id="color">Show All Brands</a>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+   
+   
+       <div class="row mt-5">
+         <div class="col-6 col-sm-6 col-md-2">
+           <div class="card">
+             <img src="../assets/img/b1.jpg" class="card-img-top" alt="err">
+             <div class="card-body">
+               <p class="card-text">Audi</p>
+             </div>
+           </div>
+         </div>
+   
+         <div class="col-6 col-sm-6 col-md-2">
+           <div class="card">
+             <img src="../assets/img/b2.jpg" class="card-img-top" alt="err">
+             <div class="card-body">
+               <p class="card-text">BMW</p>
+             </div>
+           </div>
+         </div>
+   
+         <div class="col-6 col-sm-6 col-md-2">
+           <div class="card">
+             <img src="../assets/img/b3.jpg" class="card-img-top" alt="err">
+             <div class="card-body">
+               <p class="card-text">Ford</p>
+             </div>
+           </div>
+         </div>
+   
+         <div class="col-6 col-sm-6 col-md-2">
+           <div class="card">
+             <img src="../assets/img/b4.jpg" class="card-img-top" alt="err">
+             <div class="card-body">
+               <p class="card-text">Mercedes-Benz</p>
+             </div>
+           </div>
+         </div>
+   
+         <div class="col-6 col-sm-6 col-md-2">
+           <div class="card">
+             <img src="../assets/img/b5.jpg" class="card-img-top" alt="err">
+             <div class="card-body">
+               <p class="card-text">Peugeot</p>
+             </div>
+           </div>
+         </div>
+   
+         <div class="col-6 col-sm-6 col-md-2">
+           <div class="card">
+             <img src="../assets/img/b6.jpg" class="card-img-top1" alt="err">
+             <div class="card-body">
+               <p class="card-text">Volkswagen</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     </main>
+
+     
+     <main class="team">
+      <div class="teams">
+          <p class="lang">Our Team</p>
+          <div class="arrow-brands">
+            <a class="lang" id="color">View All</a>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+
+      <div class="row mt-5">
+          <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                  <img src="../assets/img/team1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Courtney Henry</h5>
+                    <p class="card-text lang">Development Manager</p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                  <img src="../assets/img/team2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jerome Bell</h5>
+                    <p class="card-text lang">Software Tester</p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                  <img src="../assets/img/team3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Arlene McCoy</h5>
+                    <p class="card-text lang">Software Developer</p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                  <img src="../assets/img/team4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jenny Wilson</h5>
+                    <p class="card-text lang">UI/UX Designer</p>
+                  </div>
+                </div>
+          </div>
+      </div>
+     </main>
+
+
+     <footer class="mt-5">
+      <div class="email">
+        <div class="footer-text">
+         <h5 class="lang">Join BoxCar</h5>
+         <p class="lang">Receive pricing updates, shopping tips & more!</p>
+        </div>
+         <div class="address">
+          <div class="sign">
+            <input type="text" placeholder="Your email address">
+            <button>Sign Up</button>
+          </div>
+         </div>
+     </div>
+   
+       <div class="row py-5">
+         <div class="col-6 col-md-2 mb-3">
+           <h5 class="lang">Company</h5>
+           <ul class="nav flex-column">
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">About Us</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Blog</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Services</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Terms</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Contact Us</a></li>
+           </ul>
+         </div>
+   
+         <div class="col-6 col-md-2 mb-3">
+           <h5 class="lang">Quick Links</h5>
+           <ul class="nav flex-column">
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Get in Touch</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Help center</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Pricing</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Live chat</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">How it works</a></li>
+           </ul>
+         </div>
+   
+         <div class="col-6 col-md-2 mb-3">
+           <h5 class="lang">Our Brands</h5>
+           <ul class="nav flex-column">
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Toyota</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Porsche</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Audi</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">BMW</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ford</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nissan</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Peugeot</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Volkswagen</a></li>
+           </ul>
+         </div>
+   
+         <div class="col-6 col-md-2 mb-3">
+           <h5 class="lang">Vehicles Type</h5>
+           <ul class="nav flex-column">
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sedan</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Hatchback</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">SUV</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Hybrid</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Electric</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Coupe</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Truck</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary lang">Convertible</a></li>
+           </ul>
+         </div>
+         
+         <div class="col-6 col-md-2 mb-3">
+           <h5 class="lang">Our Mobile App</h5>
+           <button class="play"><i class="fa-brands fa-google-play"></i> <h6 class="lang">Get in on<br>Google Play</h6></button>
+           <button><i class="fa-brands fa-apple"></i> <h6 class="lang">Download on the<br>Apple Store</h6></button>
+           <h5 class="lang">Connect With Us</h5>
+           <div class="social">
+             <i class="fa-brands fa-facebook"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-linkedin"></i>
+           </div>
+         </div>
+   
+       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+         <p>© <script>document.write(new Date().getFullYear());</script> Company, Inc. All rights reserved.</p>
+         <ul class="list-unstyled d-flex">
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+           <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+         </ul>
+       </div>
+    </footer>
+
+  <script src="../assets/bootstrap5/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/shop.js"></script>
+  <script src="../assets/js/about.js"></script>
+</body>
+</html>

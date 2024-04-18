@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s1-300x300.jpg",
+        "title":"Front and Rear Break Kit",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"120$"
+    },
+    {
+        "id":2,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s7-300x300.jpg",
+        "title":"Michelin Defender LTX M/S",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"150$"
+    },
+    {
+        "id":3,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s6-300x300.jpg",
+        "title":"Car Rear View Mirrors 5K",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"185$"
+    },
+    {
+        "id":4,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s5-300x300.jpg",
+        "title":"Brant Challengers Steering Wheel",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"60$"
+    },
+    {
+        "id":5,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s4-300x300.jpg",
+        "title":"Carbon Fiber PVC Car Rear",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"220$"
+    },
+    {
+        
+        "id":6,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s3-300x300.jpg",
+        "title":"Sports Safety Bike Helmet",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"95$"
+    },
+    {
+        "id":7,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s2-300x300.jpg",
+        "title":"Electric Motor For Car Mini",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"118$"
+    },
+    {
+        "id":8,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/s9-300x300.jpg",
+        "title":"Side Folding Mirror Motor W5",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"199$"
+    },
+    {
+        "id":9,
+        "image":"https://demoapus1.com/boxcar/wp-content/uploads/2023/10/shop1-300x300.jpg",
+        "title":"Kit Brembo DT BMW",
+        "lorem":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra nisl non senectus tortor.",
+        "price":"359$"
+    }
+]

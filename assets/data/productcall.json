@@ -1,0 +1,134 @@
+[
+    {
+        "id":1,
+        "title":"Toyota Camry New",
+        "image":"https://media.ed.edmunds-media.com/toyota/camry-hybrid/2024/oem/2024_toyota_camry-hybrid_sedan_se-nightshade_fq_oem_1_1600.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"20 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$40000"
+    },
+     {
+        "id":2,
+        "title":"Nissan GTR R35",
+        "image":"https://maxtondesign.com/eng_pl_Front-Splitter-V-1-Nissan-GTR-R35-Facelift-19058_3.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"50 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$150000"
+    },
+    {
+        "id":3,
+        "title":"Range Rover-2021",
+        "image":"https://triangleimports.com/wp-content/uploads/2018/09/rangerover.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"250 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Manual",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$122000"
+    },
+    {
+        "id":4,
+        "title":"Hyundai Sonata",
+        "image":"https://motor.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2021/10/13/07/4955140/ac90b0b71b3a9eee91e75e46aa3949cd7bb7a432.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"50 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$35000"
+    }, 
+    {
+        "id":5,
+        "title":"Porsche 911 GT 3",
+        "image":"https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/1-porsche-911-gt3-2021-rt-hero-front.jpg?itok=_8XR4jdt",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"100 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$158000"
+    },
+    {
+        "id":6,
+        "title":"AUDI RS 7-2024",
+        "image":"https://s1.cdn.autoevolution.com/images/models/AUDI_RS7-Sportback-performance-2022_main.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"60 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$250000"
+    },
+    {
+        "id":7,
+        "title":"BMW M5 F-90",
+        "image":"https://avcdn.av.by/wisiwigimage/0002/7982/6366.jpeg",
+        "feature":"2.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"250 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$165000"
+    },
+    {
+        "id":8,
+        "title":"Mercedes-AMG CLS63 ",
+        "image":"https://www.marinoperformancemotors.com/imagetag/13228/22/l/Used-2017-Mercedes-Benz-CLS-AMG-CLS-63-S.jpg",
+        "feature":"2.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"100 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"Automatic",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$135000"
+    },
+    {
+        "id":9,
+        "title":"Jaguar F-Page",
+        "image":"https://images.pistonheads.com/nimg/46367/mceu_78216366411666369145351.jpg",
+        "feature":"2.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"300 Miles",
+        "fueltype":"Diesel",
+        "gearbox":"Manual",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$85000"
+    },
+    {
+        "id":10,
+        "title":"KIA K5-2023",
+        "image":"https://media.ed.edmunds-media.com/kia/k5/2022/oem/2022_kia_k5_sedan_ex_fq_oem_1_600.jpg",
+        "feature":"4.0 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"15 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"CVT",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$38000"
+    },
+    {
+        "id":11,
+        "title":"Volvo XC90-2021",
+        "image":"https://hips.hearstapps.com/hmg-prod/images/2021-volvo-xc90-mmp-1-1603304643.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"150 Miles",
+        "fueltype":"Petrol",
+        "gearbox":"CVT",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$90000"
+    },
+    {
+        "id":12,
+        "title":"Lexus NX 2023",
+        "image":"https://car-images.bauersecure.com/wp-images/13281/lexusnx_01.jpg",
+        "feature":"3.5 D5 Power Pulse Momentum 5dr... .",
+        "kilometers":"10 Miles",
+        "fueltype":"Diesel",
+        "gearbox":"CVT",
+        "lorem":"Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque.",
+        "price":"$35000"
+    }
+]

@@ -1,0 +1,317 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+body{
+    overflow-x: hidden;
+}
+.like{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.telephone{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.telephone p{
+   margin-top: 10px;
+   margin-left: 10px;
+   color: #fff;
+   font-size: 20px;
+}
+.telephone i{
+    color: #fff;
+    font-size: 20px;
+ }
+.like i{
+    font-size: 20px;
+}
+.like .basket{
+    margin-left: 10px;
+    width: 4%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.like .basket i{
+  color: #fff;
+}
+.like .heart{
+    margin-left: 30px;
+    width: 4%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.like .heart i{
+    color: #fff;
+}
+.like #dark-btn{
+    background: none;
+    border: none;
+    color: #fff;
+}
+.like #lang-btn{
+    background: none;
+    border: none;
+    color: #fff;
+}
+header{
+    background-color: #050B20;
+    width: 100%;
+    height: 150px;
+}
+header .container{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container nav ul{
+    width: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container nav ul li{
+    list-style: none;
+    color: #fff;
+    font-weight: bolder;
+}
+header .container nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header .container button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+header .container button:hover{
+    background-color: #3F5EF0;
+    border: 1px solid #3F5EF0;
+    color: #fff;
+}
+.text .contact1{
+    display: flex;
+}
+.text .contact1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3F5EF0;
+}
+.text .contact1 p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.text p{
+    font-weight: bolder;
+    font-size: 35px;
+}
+main .search{
+   display: flex;
+   justify-content: center;
+}
+main form .btn{
+    border-radius: 20px;
+    background-color: #3F5EF0;
+    border: 1px solid #3F5EF0;
+    color: #fff;
+}
+main form .btn:hover{
+    background-color: #3F5EF0;
+    border: 1px solid #3F5EF0;
+    color: #fff;
+}
+.container .card img{
+    height: 300px;
+}
+.container .card .cart{
+    display: flex;
+    justify-content: space-between;
+}
+.container .card .arrow a{
+    text-decoration: none;
+}
+.container .card .arrow i{
+    margin-left: 10px;
+    color: #3F5EF0;
+}
+.container .card .list{
+    display: flex;
+    justify-content: space-between;
+}
+.container .card .list button{
+    border-radius: 10px;
+    border: 1px solid #fff;
+    transition: .5s;
+    background-color: #0D6EFD;
+    color: #fff;
+}
+.zoomable-card {
+    overflow: hidden;
+    border: none;
+}
+.zoomable-card .card-img-top {
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+.zoomable-card:hover .card-img-top {
+    transform: scale(1.1);
+}
+footer{
+    background-color: #050B20;
+}
+footer .email{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff;
+}
+footer .email .footer-text h5{
+   font-size: 40px;
+   color: #fff;
+}
+footer .email .footer-text p{
+    color: #fff;
+}
+footer .email .address .sign{
+    display: flex;
+}
+footer .email .address input{
+    padding: 15px 150px 15px 30px;
+    background-color:   rgba(92, 89, 89, 0.5);
+    border: 1px solid  rgba(92, 89, 89, 0.5);
+    border-radius: 30px;
+    position: absolute;
+    transform: translateX(-280px);
+}
+footer .email .address button{
+    position: relative;
+    transform: translateX(-8px);
+    padding: 12px 15px 12px 15px;
+    border-radius: 30px;
+    background-color:#3F5EF0;
+    border: 1px solid#3F5EF0;
+    color: #fff;
+    margin-top: 3px;   
+}
+footer .row{
+   display: flex;
+   justify-content: space-between;
+}
+footer .row h5{
+    color: #fff;
+}
+footer .row .nav .nav-item .nav-link{
+    color:  #fff !important;
+}
+footer .row p{
+   color: #fff;
+}
+footer button{
+   display: flex;
+   padding: 10px 13px 10px 15px;
+   border-radius: 20px;
+   background-color:  rgba(92, 89, 89, 0.5);
+   border: 1px solid  rgba(92, 89, 89, 0.5);
+   color: #fff;
+   margin-bottom: 15px;
+}
+footer button i{
+    font-size: 30px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+footer .play{
+    display: flex;
+    padding: 10px 43px 10px 15px;
+    border-radius: 20px;
+    background-color:  rgba(92, 89, 89, 0.5);
+    border: 1px solid  rgba(92, 89, 89, 0.5);
+    color: #fff;
+    margin-bottom: 15px;
+ }
+ footer .play i{
+     font-size: 30px;
+     margin-top: 7px;
+     margin-right: 10px;
+ }
+footer .social{
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 17px;
+}
+/* ==========================DARK/Light mode========================== */
+.light {
+    background-color: #ffffff;
+    color: #000;
+}
+.dark-mode {
+    background-color: #121926;
+    color: #ffffff;
+}
+.dark-mode #dark-btn i{
+   color: yellow;
+}
+.dark-mode .like{
+    background-color: #121926;
+}
+.dark-mode .like #dark-btn{
+    background: none;
+    border: none;
+    color: #fff;
+}
+.dark-mode header{
+    background-color: #121926;
+    border-bottom: 1px solid #000;
+}
+.dark-mode .card{
+    background-color: #121926;
+}
+.dark-mode .card .card-title{
+    color: #fff;
+}
+.dark-mode .card .card-text{
+    color: #fff;
+}
+.dark-mode .btn{
+    border: 1px solid #3F5EF0 !important;
+}
+.dark-mode footer{
+    background-color: #121926;
+}
+/* ==========================MEDIA QUERY============================== */
+@media (max-width:768px) {
+    .like .heart{
+        margin-left: 30px;
+    }
+    header{
+        height: 200px;
+    }
+    header .container nav ul{
+        width: 100%;
+        position:absolute;
+        transform: translate(-245px,30px);
+    }
+    header nav ul li a{
+        font-size: 15px;
+    }
+     footer .email .footer-text{
+        transform: translate(10px,-50px);
+    }
+     footer .email .address{
+       transform: translate(-110px,50px);
+    }
+}
