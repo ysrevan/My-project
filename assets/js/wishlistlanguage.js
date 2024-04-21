@@ -1,6 +1,6 @@
 const langData={
    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə",
-   "Sənin İstəklərin","Şəkil","Ad","Qiymət","İstəklərini Təmizlə",
+   "Sənin İstəklərin","Şəkil","Ad","Qiymət",
    "BoxCar-a qoşulun","Qiymət yeniləmələri, alış-veriş məsləhətləri və daha çoxunu alın!",
    "Şirkət","Haqqımızda","Bloq","Xidmətlər","Şərtlər","Əlaqə",
    "Sürətli bağlantılar","Əlaqədə ol","Yardım mərkəzi","Qiymətləndirmə","Canlı söhbət","Bu necə işləyir",
@@ -8,7 +8,7 @@ const langData={
    "Mobil Tətbiqimiz","Google Play-ə daxil olun","Apple Store-da endirin","Bizimlə əlaqə saxlayın"
    ],
    en:["Home","Listings","Blog","Shop","About Us","Contact",
-   "Your Wishlist","Photo","Title","Price","Clear Wishlist",
+   "Your Wishlist","Photo","Title","Price",
    "Join BoxCar","Receive pricing updates, shopping tips & more!",
    "Company","About Us","Blog","Services","Terms","Contact Us",
    "Quick Links","Get in Touch","Help center","Pricing","Live chat","How it works",
