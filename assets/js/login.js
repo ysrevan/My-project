@@ -31,7 +31,7 @@ const databaseUser = {
 
 
 const langData ={
-  az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol","Giriş","Qeydiyyatdan keçin",
+  az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Qeydiyyatdan keçin",
   "Hesabınıza daxil olun","Daxil ol","Hesab yoxdur?","YOXSA","Facebook ilə daxil olun","Google ilə daxil olun",
   "İstifadəçi adı: demo","Parol: demo",
   "BoxCar-a qoşulun","Qiymət yeniləmələri, alış-veriş məsləhətləri və daha çoxunu alın!",
@@ -40,7 +40,7 @@ const langData ={
   "Bizim Brendlərimiz","Nəqliyyat vasitələrinin növü","Hetçbek","Hibrid","Elektrik","Kupe","Yük maşını","Kabriolet",
   "Mobil Tətbiqimiz","Google Play-ə daxil olun","Apple Store-da endirin","Bizimlə əlaqə saxlayın"],
 
-  en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing","Sign in","Register",
+  en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Register",
   "Sign in to your account","Login","No account?","OR","Login with Facebook","Login with Google",
   "Username: demo","Password: demo",
   "Join BoxCar","Receive pricing updates, shopping tips & more!",

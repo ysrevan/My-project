@@ -1,5 +1,5 @@
 const langData ={
-    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol",
+    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə",
     "Əsas","İnternetdə gördüyüm avtomobillər Boxcar-a məxsusdur, yoxsa başqalarına məxsusdur?",
     "Əlbətdəki internetdə gördüyünüz avtomobillər Boxcar-a məxsusdur.",
     "Mənə və büdcəmə uyğun avtomobili tapmağa kömək etmək üçün hansı alətlərə sahibsiniz?",
@@ -27,7 +27,7 @@ const langData ={
     "Mobil Tətbiqimiz","Google Play-ə daxil olun","Apple Store-da endirin","Bizimlə əlaqə saxlayın"
   ],
 
-    en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing",
+    en:["Home","Listings","Blog","Shop","About Us","Contact",
     "General","Does Boxcar own the cars I see online or are they owned by others?",
     "Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel.",
     "What tools do you have to help me find the right car for me and my budget?",

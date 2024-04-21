@@ -12,13 +12,7 @@ const addToCart = (addProd) => {
 
   let basketcount = 0;
 
-//   const addToWishlist = (addProd) => {
-//     wishlist.push(addProd);
-//     const localWishlist = JSON.stringify(wishlist);
-//     localStorage.setItem('wishlist', localWishlist);
-//   }
 
-//   let wishlistcount = 0;
 
 
 fetch("http://127.0.0.1:5500/assets/data/shop.json")
@@ -95,7 +89,7 @@ function setupAddToCartListeners() {
             let basketData = JSON.parse(localStorage.getItem('basket')) || [];
             basketData.push(product);
             localStorage.setItem('basket', JSON.stringify(basketData));
-            alert('Məhsul səbətə əlavə olundu.');
+            alert('The product has been added to the cart!');
         });
     });
 }
@@ -119,20 +113,17 @@ function setupAddToWishlistListeners() {
                 price: price,
             };
 
-            // wishlistcount+=1;
-            // document.querySelector('#wishlist-counter').innerHTML =wishlistcount;
-            // localStorage.setItem('wishlistcount',wishlistcount);
-
+         
             
             let wishlistData = JSON.parse(localStorage.getItem('wishlist')) || [];
             wishlistData.push(product);
             localStorage.setItem('wishlist', JSON.stringify(wishlistData));
-            alert('Məhsul əlavə olundu.');
+            alert('Product added to wishlist!');
         });
     });
 }
 
-// document.querySelector('#wishlist-counter').innerHTML =localStorage.getItem('wishlistcount');
+
 
 
 

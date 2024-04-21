@@ -1,5 +1,5 @@
 const langData={
-   az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol",
+   az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə",
    "Sənin İstəklərin","Şəkil","Ad","Qiymət","İstəklərini Təmizlə",
    "BoxCar-a qoşulun","Qiymət yeniləmələri, alış-veriş məsləhətləri və daha çoxunu alın!",
    "Şirkət","Haqqımızda","Bloq","Xidmətlər","Şərtlər","Əlaqə",
@@ -7,7 +7,7 @@ const langData={
    "Bizim Brendlərimiz","Nəqliyyat vasitələrinin növü","Hetçbek","Hibrid","Elektrik","Kupe","Yük maşını","Kabriolet",
    "Mobil Tətbiqimiz","Google Play-ə daxil olun","Apple Store-da endirin","Bizimlə əlaqə saxlayın"
    ],
-   en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing",
+   en:["Home","Listings","Blog","Shop","About Us","Contact",
    "Your Wishlist","Photo","Title","Price","Clear Wishlist",
    "Join BoxCar","Receive pricing updates, shopping tips & more!",
    "Company","About Us","Blog","Services","Terms","Contact Us",

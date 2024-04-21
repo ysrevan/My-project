@@ -4,7 +4,6 @@ body{
 }
 .like{
     width: 100%;
-   
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -56,10 +55,21 @@ body{
     background: none;
     border: none;
     color: #fff;
+    margin-right: 10px;
 }
 .like #lang-btn{
     background: none;
     border: none;
+    color: #fff;
+    margin-right: 10px;
+}
+.like .user{
+    margin-left: 20px;
+}
+.like .user a{
+   color: #fff;
+}
+.like .user i{
     color: #fff;
 }
 header{
@@ -73,11 +83,12 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-header .container nav ul{
+header nav .page{
     width: 148%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transform: translateX(-180px);
 }
 header .container nav ul li{
     list-style: none;
@@ -86,17 +97,6 @@ header .container nav ul li{
 }
 header .container nav ul li a{
     text-decoration: none;
-    color: #fff;
-}
-header .container button{
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    border: 1px solid #fff;
-    transition: .5s;
-}
-header .container button:hover{
-    background-color: #3F5EF0;
-    border: 1px solid #3F5EF0;
     color: #fff;
 }
 .text .contact{
@@ -272,9 +272,7 @@ main .main-text .lorem{
     color: #000;
     text-decoration: none;
 }
-/* .animate__animated{
-    color: #000;
-} */
+
 .team .teams{
     display: flex;
     align-items: center;
@@ -390,13 +388,18 @@ footer .social{
     header{
         height: 200px;
     }
-    header .container nav ul{
-        width: 100%;
-        position:absolute;
-        transform: translate(-245px,30px);
+    header nav .page{
+        width: 130%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transform: translate(-130px,60px);
     }
     header nav ul li a{
         font-size: 15px;
+    }
+    .container .logo{
+        transform: translateX(170px);
     }
     .main-text{
         display: block;

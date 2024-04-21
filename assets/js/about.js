@@ -1,5 +1,5 @@
 const langData ={
-    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol",
+    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə",
     "Ana səhifə/","Haqqımızda","Haqqımızda","Biz Müştərilərimiz Dəyərlidir və Onların Gözəl Təcrübəsinin Olmasını İstəyirik",
     "Biz müşdərilərimizə ən gözəl xidməti göstərməyə çalışırıq ",
     "Bizim müşdərilərimiz həmişə bizə güvənir və biz onlara bacardığımız<br>qədər bildiyimiz hər bir şeyi izah edirik. Onlara ən yaxşısını seçməkdı kömək edirik və ən yaxşılarını tövsiyə edirik.",
@@ -20,7 +20,7 @@ const langData ={
     "Mobil Tətbiqimiz","Google Play-ə daxil olun","Apple Store-da endirin","Bizimlə əlaqə saxlayın"
 ],
 
-    en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing",
+    en:["Home","Listings","Blog","Shop","About Us","Contact",
     "Home/","About Us","About Us","We Value Our Clients And<br> Want Them To Have A<br> Nice Experience",
     "Lorem ipsum dolor sit amet consectetur. Convallis integer enim eget sit urna. Eu duis lectus<br>amet vestibulum varius. Nibh tellus sit sit at lorem facilisis. Nunc vulputate ac interdum<br> aliquet vestibulum in tellus.",
     "Sit convallis rhoncus dolor purus amet orci urna. Lobortis vulputate vestibulum consectetur <br>donec ipsum egestas velit laoreet justo. Eu dignissim egestas egestas ipsum. Sit est nunc<br>pellentesque at a aliquam ultrices consequat. Velit duis velit nec amet eget eu morbi. Libero<br>non diam sit viverra dignissim. Aliquam tincidunt in cursus euismod enim.",

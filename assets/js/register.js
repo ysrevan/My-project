@@ -26,7 +26,7 @@ form.onsubmit = register;
 
 
 const langData={
-    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol","Giriş","Qeydiyyatdan keçin",
+    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Qeydiyyatdan keçin",
     "Qeydiyyatdan keçin","İndi qeydiyyatdan keçin və tətbiqimizə tam giriş əldə edin.","Qeydiyyatdan keç",
     "Facebook ilə daxil olun","Google ilə daxil olun",
     "BoxCar-a qoşulun","Qiymət yeniləmələri, alış-veriş məsləhətləri və daha çoxunu alın!",
@@ -36,7 +36,7 @@ const langData={
     "Mobil Tətbiqimiz","Google Play-ə daxil olun","Apple Store-da endirin","Bizimlə əlaqə saxlayın"
     ],
 
-    en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing","Sign in","Register",
+    en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Register",
     "Register","Signup now and get full access to our app.","Submit",
     "Login with Facebook","Login with Google",
     "Join BoxCar","Receive pricing updates, shopping tips & more!",

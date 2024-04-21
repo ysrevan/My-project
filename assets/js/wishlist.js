@@ -17,6 +17,6 @@ let comingWishlistData = JSON.parse(localStorage.getItem("wishlist"));
 function clearWishlist(){
     localStorage.removeItem('wishlist');
     location.reload();
-    alert('Məhsul təmizlənsinmi?');
+    alert('Clean the product?');
 }
 tbody.innerHTML = tr;

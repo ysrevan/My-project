@@ -14,7 +14,6 @@ body{
 }
 .like{
     width: 100%;
-   
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -40,7 +39,7 @@ body{
 }
 .like .basket{
     margin-left: 10px;
-    width: 4%;
+    /* width: 4%; */
     height: 30px;
     display: flex;
     align-items: center;
@@ -52,7 +51,7 @@ body{
 }
 .like .heart{
     margin-left: 30px;
-    width: 4%;
+    /* width: 4%; */
     height: 30px;
     display: flex;
     align-items: center;
@@ -72,6 +71,15 @@ body{
     border: none;
     color: #fff;
 }
+.like .user{
+    margin-left: 20px;
+}
+.like .user a{
+   color: #fff;
+}
+.like .user i{
+    color: #fff;
+}
 header{
     background-image: url(https://demoapus1.com/boxcar/wp-content/uploads/2023/10/slider1.jpg);
     width: 100%;
@@ -83,11 +91,12 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-header nav ul{
+header nav .page{
     width: 148%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transform: translateX(-180px);
 }
 header nav ul li{
     list-style: none;
@@ -96,17 +105,6 @@ header nav ul li{
 }
 header nav ul li a{
     text-decoration: none;
-    color: #fff;
-}
-header button{
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    border: 1px solid #fff;
-    transition: .5s;
-}
-header button:hover{
-    background-color:#3F5EF0;
-    border: 1px solid#3F5EF0;
     color: #fff;
 }
 .header-text{
@@ -558,13 +556,12 @@ footer .social{
     .like .heart{
         margin-left: 30px;
     }
-    header nav ul{
-        position:absolute;
-        transform: translate(-245px,30px);
-        width: 100%;
-    }
-    header nav ul li a{
-        font-size: 15px;
+    header nav .page{
+        width: 130%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transform: translate(-130px,60px);
     }
     header .small-text{
         transform: translateY(-30px);
@@ -572,6 +569,9 @@ footer .social{
     header .big-text{
         font-size: 40px;
         transform: translateY(-30px);
+    }
+    .container .logo{
+        transform: translateX(170px);
     }
     .category nav ul{
         transform: translate(-20px,-50px);

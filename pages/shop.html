@@ -33,18 +33,37 @@
          </div>
          <div class="heart">
           <a href="./wishlist.html"><i class="fa-solid fa-heart"></i></a>
-          <span id="basket-counter" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-            0
-            <span class="visually-hidden">unread messages</span>
-          </span>
+         
+         </div>
+
+         <div class="user">
+
+          <script>
+          document.write(
+              localStorage.getItem('login') === "true" ?
+              `<i class="fa-solid fa-right-from-bracket"  id="logout"></i>` :
+              `<a href="./login.html"> <i class="fa-solid fa-user"></i></a>`
+          );
+      </script>
+        
          </div>
        
       </div>
     </div>
+
+    
+    <script>
+      if (document.querySelector('#logout')) {
+    document.querySelector('#logout').onclick = ()=>{
+      localStorage.setItem('login','false')
+      window.location.assign('login.html')
+    }
+  }
+    </script>
       <div class="container">
-        <img src="../assets/img/logo.svg" alt="err">
+        <img src="../assets/img/logo.svg" alt="err" class="logo">
         <nav>
-            <ul class="my-3">
+            <ul class="my-3 page">
               <li><a href="./home.html" class="lang">Home</a></li>
               <li><a href="./products.html" class="lang">Listings</a></li>
               <li><a href="./products1.html" class="lang">Blog</a></li>
@@ -52,32 +71,12 @@
               <li><a href="./about.html" class="lang">About</a></li>
               <li><a href="./faq.html">FAQs</a></li>
               <li><a href="./contact.html" class="lang">Contact</a></li>
-                 <script>
-                  document.write(
-                      localStorage.getItem('login') === "true" ?
-                      `<a href="#" style="text-decoration: none; color: #fff; font-weight: bolder;">${localStorage.getItem("firstname")}</a>` :
-                      `<a href="./login.html" style="text-decoration: none; color: #fff; font-weight: bolder;" class="lang">Sign in</a>`
-                  );
-              </script>
+                
             </ul>
         </nav>
-        <script>
-          document.write(
-              localStorage.getItem('login') === "true" ?
-              `<button class="animate__animated animate__backInRight animate__slower" id="logout">Log out</button>` :
-              `<button class="animate__animated animate__backInRight animate__slower lang">Submit Listing</button>`
-          );
-      </script>
+        
         </div>
-      <script>
-        if (document.querySelector('#logout')) {
-      document.querySelector('#logout').onclick = ()=>{
-        localStorage.setItem('login','false')
-        window.location.assign('login.html')
-      }
-  }
-      </script>
-
+    
     </header>
 
     <div class="text">

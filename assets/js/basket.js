@@ -19,7 +19,7 @@ function clearBasket(){
     localStorage.removeItem('basket');
     localStorage.setItem('basketcount', 0);
     document.querySelector('#basket-counter').innerHTML = 0;
-    alert('Səbətiniz təmizlənsinmi?')
+    alert('Clear your cart?')
 }
 tbody.innerHTML = tr;
 

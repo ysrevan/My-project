@@ -1,6 +1,6 @@
 const langData={
 
-    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol",
+    az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə",
     "Sizə yaxın satış və kirayə avtomobilləri tapın", "Mükəmməl Avtomobilinizi Tapın",
     "Hamısı","Yeni","Isdifadə olunmuş","Başqa Markalar","Başqa Modellər","Qiymətlər:Bütün Qiymətlər",
     "Avtomobil Axtar","Və ya Seçilmiş Modeli Gözdən keçirin","Premium Brendlərimizi Araşdırın",
@@ -25,7 +25,7 @@ const langData={
   ],
   
   
-    en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing",
+    en:["Home","Listings","Blog","Shop","About Us","Contact",
     "Find cars for sale and for rent near you","Find Your Perfect Car",
     "All","New","Used","Any Makes","Any Models","Prices:All Prices",
     "Search Cars","Or Browse Featured Model","Explore Our Premium Brands",

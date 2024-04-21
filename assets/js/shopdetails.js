@@ -26,7 +26,7 @@ details.innerHTML = `
 
 
 const langData={
-  az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol",
+  az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə",
   "BoxCar-a qoşulun","Qiymət yeniləmələri, alış-veriş məsləhətləri və daha çoxunu alın!",
   "Şirkət","Haqqımızda","Bloq","Xidmətlər","Şərtlər","Əlaqə",
   "Sürətli bağlantılar","Əlaqədə ol","Yardım mərkəzi","Qiymətləndirmə","Canlı söhbət","Bu necə işləyir",
@@ -35,7 +35,7 @@ const langData={
   ],
 
 
-  en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing",
+  en:["Home","Listings","Blog","Shop","About Us","Contact",
   "Join BoxCar","Receive pricing updates, shopping tips & more!",
   "Company","About Us","Blog","Services","Terms","Contact Us",
   "Quick Links","Get in Touch","Help center","Pricing","Live chat","How it works",

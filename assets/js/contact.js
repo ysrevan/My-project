@@ -34,7 +34,7 @@ window.onload = function() {
 }
 
 const langData={
-  az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə","Giriş","Daxil ol",
+  az:["Ana səhifə","Siyahı","Bloq","Mağaza","Haqqımızda","Əlaqə",
   "Ana səhifə/","Bizimlə əlaqə","Bizimlə əlaqə","Əlaqə saxlayın",
   "Məlumatlarınızı yazın suallarınızı verin və biz sizə kömək edək.",
   "Əlaqə məlumatları","Məlumatlarınızı yazın suallarınızı verin və biz sizə kömək edək.",
@@ -47,7 +47,7 @@ const langData={
   "Mobil Tətbiqimiz","Google Play-ə daxil olun","Apple Store-da endirin","Bizimlə əlaqə saxlayın"
   ],
 
-  en:["Home","Listings","Blog","Shop","About Us","Contact","Sign in","Submit Listing",
+  en:["Home","Listings","Blog","Shop","About Us","Contact",
   "Home/","Contact Us","Contact Us","Get In Touch",
   "Etiam pharetra egestas interdum blandit viverra morbi consequat mi non bibendum egestas quam egestas nulla.",
   "Contact details","Etiam pharetra egestas interdum blandit viverra morbi<br>consequat mi non bibendum egestas quam egestas nulla.",
