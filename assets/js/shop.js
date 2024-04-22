@@ -73,11 +73,11 @@ function setupAddToCartListeners() {
     document.querySelectorAll('.addToCartBtn').forEach(btn => {
         btn.addEventListener('click', function () {
 
-            const isRegisterIn = localStorage.getItem('register') === 'true'; 
+            const isLoginIn = localStorage.getItem('login') === 'true'; 
 
-            if (!isRegisterIn) { 
-                alert('You need to register first.');
-                window.location.assign('register.html'); 
+            if (!isLoginIn) { 
+                alert('You need to login first.');
+                window.location.assign('login.html'); 
                 return; 
             }else{
                 const image = btn.dataset.image;
