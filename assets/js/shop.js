@@ -69,7 +69,6 @@ function displayCards(data) {
 }
 
 
-
 function setupAddToCartListeners() {
     document.querySelectorAll('.addToCartBtn').forEach(btn => {
         btn.addEventListener('click', function () {
