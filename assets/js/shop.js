@@ -41,12 +41,14 @@ function displayCards(data) {
           <div class="card zoomable-card">
           <img src="${i.image}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">${i.title}</h5>
+           <div class="wish">
+           <h5 class="card-title">${i.title}</h5>
+           <button class="btn btn-primary addToWishlistBtn wish" data-image="${i.image}" data-title="${i.title}" data-price="${i.price}">
+           <i class="fa-solid fa-heart"></i>
+             </button>
+           </div>
              <div class="list">
                <h5 class="card-text">${i.price}</h5>
-                  <button class="btn btn-primary addToWishlistBtn" data-image="${i.image}" data-title="${i.title}" data-price="${i.price}">
-                 <i class="fa-solid fa-heart"></i>
-                   </button>
                  </div>
              <div class="view">
                       <div class="cart">

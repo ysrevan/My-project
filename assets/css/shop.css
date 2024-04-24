@@ -138,6 +138,13 @@ main form .btn:hover{
     display: flex;
     justify-content: space-between;
 }
+.container .card .arrow{
+    margin-top: 8px;
+}
+.wish{
+   display: flex;
+   justify-content: space-between;
+}
 .container .card .arrow a{
     text-decoration: none;
 }
@@ -156,6 +163,7 @@ main form .btn:hover{
     background-color: #0D6EFD;
     color: #fff;
 }
+
 .zoomable-card {
     overflow: hidden;
     border: none;
@@ -226,6 +234,7 @@ footer button{
    border: 1px solid  rgba(92, 89, 89, 0.5);
    color: #fff;
    margin-bottom: 15px;
+   white-space: nowrap;
 }
 footer button i{
     font-size: 30px;

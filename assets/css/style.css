@@ -410,6 +410,8 @@ main .choose{
     font-size: 20px;
     font-weight: bolder;
     transition: .5s;
+    width: 100%;
+
 }
 .card .card-body .bmw:hover{
     color:#3F5EF0;
@@ -522,7 +524,7 @@ footer button{
    background-color:  rgba(92, 89, 89, 0.5);
    border: 1px solid  rgba(92, 89, 89, 0.5);
    color: #fff;
-   margin-bottom: 15px;
+   white-space: nowrap;
 }
 footer button i{
     font-size: 30px;

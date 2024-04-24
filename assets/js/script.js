@@ -7,7 +7,7 @@ fetch("http://127.0.0.1:5500/assets/data/products.json")
   data.map(item=>{
     li+=`
     <div data-aos="fade-down" class="col-12 col-sm-6 col-md-4">
-    <div class="card">
+    <div class="card ">
         <img  height="300" style="object-fit:contain" src="${item.image}" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="search">${item.title}</h5>
